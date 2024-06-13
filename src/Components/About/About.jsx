@@ -1,23 +1,28 @@
 import React from "react";
 import './About.css'
-import about from '../../assets/about.png'
+import developpeur from '../../assets/developpeur-web.webp'
 import aboutleft from '../../assets/about-left.png'
+import dict from "../../utils/dict";
 
 const About = () => {
+
+    const locale = window.localStorage.getItem('locale') || 'fr';
+    const translations = dict[locale] || dict['fr'];
+
     return (
         <div className="about">
             <div className="about-title">
-                <h1>Présentation</h1>
+                <h1>{translations.aboutTitle}</h1>
                 <img src={aboutleft} alt="" />
             </div>
             <div className="about-sections">
                 <div className="about-left">
-                    <img src={about} alt="" />
+                    <img src={developpeur} alt="" />
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>Je m'appelle Sana Najjar, je suis passionné par le domaine de l'informatique et du web. J'ai un diplôme en informatique, et récemment j'ai suivi une formation d'intégrateur web chez OpenClassrooms, où j'ai approfondi mes compétences en développement web. Grâce à cette formation, j'ai pu réaliser plusieurs projets concrets, ce qui m'a permis de renforcer mes compétences et de me familiariser avec les meilleures pratiques du secteur.</p>
-                        <p>Je suis particulièrement intéressé par le développement front-end et j'aime transformer des conceptions graphiques en sites web fonctionnels et attrayants. Mon objectif est d'intégrer le monde professionnel et de continuer à apprendre et à évoluer.</p>
+                        <p>{translations.aboutParagraph1}</p>
+                        <p>{translations.aboutParagraph2}</p>
                     </div>
                     <div className="about-skills">
                         <div className="about-skill"><p>HTML & CSS</p> <hr style={{width:"70%"}} /></div>
