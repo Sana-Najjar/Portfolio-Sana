@@ -10,7 +10,7 @@ const About = () => {
     const translations = dict[locale] || dict['fr'];
 
     return (
-        <div className="about">
+        <div id='Présentation' className="about">
             <div className="about-title">
                 <h1>{translations.aboutTitle}</h1>
                 <img src={aboutleft} alt="" />

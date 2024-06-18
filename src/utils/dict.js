@@ -12,8 +12,19 @@ const dict = {
       citation: "L'apprentissage est la seule chose que l'esprit n'épuise jamais, ne craint jamais et ne regrette jamais.",
       aboutTitle: "Présentation",
       aboutParagraph1: "Je m'appelle Sana Najjar, je suis passionné par le domaine de l'informatique et du web. J'ai un diplôme en informatique, et récemment j'ai suivi une formation d'intégrateur web chez OpenClassrooms, où j'ai approfondi mes compétences en développement web. Grâce à cette formation, j'ai pu réaliser plusieurs projets concrets, ce qui m'a permis de renforcer mes compétences et de me familiariser avec les meilleures pratiques du secteur.",
-      aboutParagraph2: "Je suis particulièrement intéressé par le développement front-end et j'aime transformer des conceptions graphiques en sites web fonctionnels et attrayants. Mon objectif est d'intégrer le monde professionnel et de continuer à apprendre et à évoluer."
-
+      aboutParagraph2: "Je suis particulièrement intéressé par le développement front-end et j'aime transformer des conceptions graphiques en sites web fonctionnels et attrayants. Mon objectif est d'intégrer le monde professionnel et de continuer à apprendre et à évoluer.",
+      navRealisations:"Mes projets",
+      aboutProjet:"Projet réalisé pendant ma formation chez Openclassroom",
+      technologiesUsed: "Technologies utilisées:",
+      contactTitre:"Connectez-vous avec moi",
+      contactText:"Je suis actuellement disponible",
+      formNom:"Votre nom",
+      formMail:"Votre Email",
+      formText:"Écrivez votre message ici",
+      formBtn:"Soumettre",
+      inputNom:"Entrer votre nom",
+      inputMail:"Entrer votre e-mail",
+      inputMsg:"Entrez votre message",
     },
     en: {
       hello: "Hello, I am Sana Najjar",
@@ -28,7 +39,19 @@ const dict = {
       citation: "Learning is the only thing the mind never exhausts, never fears, and never regrets.",
       aboutTitle: "About Me",
       aboutParagraph1: "My name is Sana Najjar, I am passionate about the field of IT and the web. I have a degree in computer science, and recently I completed a web integrator training at OpenClassrooms, where I deepened my web development skills. Thanks to this training, I was able to complete several concrete projects, which allowed me to strengthen my skills and familiarize myself with industry best practices.",
-      aboutParagraph2: "I am particularly interested in front-end development and I love transforming graphic designs into functional and attractive websites. My goal is to enter the professional world and continue to learn and grow."
+      aboutParagraph2: "I am particularly interested in front-end development and I love transforming graphic designs into functional and attractive websites. My goal is to enter the professional world and continue to learn and grow.",
+      navRealisations: "My projects",
+      aboutProjet:"Project carried out during my training at Openclassroom",
+      technologiesUsed: "Technologies used:",
+      contactTitre:"Let's talk",
+      contactText:"I'm available",
+      formNom:"Your name",
+      formMail:"Your Email",
+      formText:"Write your message here",
+      formBtn:"Submit now",
+      inputNom:"Enter your name",
+      inputMail:"Enter your e-mail",
+      inputMsg:"Enter your message",
     }
   };
   
