@@ -100,9 +100,9 @@
 @media(max-width:768px) {
     .modal {
         padding: 10px;
-        max-width: 30%;
-        width: 30%;
-        right:258px;
+        max-width: 50%;
+        width: 80%;
+        
     }
     .modal-content {
         flex-direction: column;
