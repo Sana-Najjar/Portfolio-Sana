@@ -17,7 +17,7 @@ const dict = {
       aboutProjet:"Projet réalisé pendant ma formation chez Openclassroom",
       technologiesUsed: "Technologies utilisées:",
       contactTitre:"Connectez-vous avec moi",
-      contactText:"Je suis actuellement disponible",
+      contactText:"N'hésitez pas à me contacter via ce formulaire,ou par mail !😊 ",
       formNom:"Votre nom",
       formMail:"Votre Email",
       formText:"Écrivez votre message ici",
@@ -25,6 +25,7 @@ const dict = {
       inputNom:"Entrer votre nom",
       inputMail:"Entrer votre e-mail",
       inputMsg:"Entrez votre message",
+      footerMsg:"Réalisé par Sana NAJJAR",
     },
     en: {
       hello: "Hello, I am Sana Najjar",
@@ -44,7 +45,7 @@ const dict = {
       aboutProjet:"Project carried out during my training at Openclassroom",
       technologiesUsed: "Technologies used:",
       contactTitre:"Let's talk",
-      contactText:"I'm available",
+      contactText:"Do not hesitate to contact me via this form,or by email !😊",
       formNom:"Your name",
       formMail:"Your Email",
       formText:"Write your message here",
@@ -52,6 +53,7 @@ const dict = {
       inputNom:"Enter your name",
       inputMail:"Enter your e-mail",
       inputMsg:"Enter your message",
+      footerMsg:"Directed by Sana NAJJAR",
     }
   };
   
