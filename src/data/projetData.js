@@ -27,7 +27,7 @@ const projets_data = [
         p_name:"Kasa",
         p_img: projet3_img,
         github_link:"https://github.com/Sana-Najjar/Kasa",
-        live_link: "https://sana-najjar.github.io/Kasa/",
+        live_link: "https://sana-najjar.github.io/",
         technologies:["REACT","HTML","SCSS"]
     },
     {
@@ -35,7 +35,6 @@ const projets_data = [
         p_name:"Argent Bank",
         p_img: projet4_img,
         github_link: "https://github.com/Sana-Najjar/Argent-Bank-front-end",
-        live_link:"https://sana-najjar.github.io/Argent-Bank-front-end/",
         technologies:["REACT","REDUX","SCSS"]
 
     },
@@ -52,7 +51,6 @@ const projets_data = [
         p_name:"Agence 724events",
         p_img: projet6_img,
         github_link: "https://github.com/Sana-Najjar/Debuggez_le_site_77events",
-        live_link:"https://sana-najjar.github.io/Debuggez_le_site_77events/",
         technologies:["REACT DEVELOPER TOOLS"]
     },
 ];
