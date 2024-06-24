@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
@@ -12,12 +12,12 @@ const App = () => {
 
   return (
     <div>
-       <Navbar onChangeLocale={(locale) => setState(locale)}/>
-       <Header/>
-       <About/>
-       <Projects/>
-       <Contact/>
-       <Footer/>
+      <Navbar onChangeLocale={(locale) => setState(locale)} />
+      <Header />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   )
 }

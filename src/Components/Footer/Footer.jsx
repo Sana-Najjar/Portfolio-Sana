@@ -12,12 +12,12 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-top">
                 <div className="footer-top-left">
-                    <img src={logosana} alt=""/>
+                    <img src={logosana} alt="" />
                     <p>{translations.footerMsg} </p>
                 </div>
             </div>
-            <hr/>
-            
+            <hr />
+
 
         </div>
     )

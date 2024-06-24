@@ -25,11 +25,12 @@ const About = () => {
                         <p>{translations.aboutParagraph2}</p>
                     </div>
                     <div className="about-skills">
-                        <div className="about-skill"><p>HTML & CSS</p> <hr style={{width:"70%"}} /></div>
-                        <div className="about-skill"><p>JavaScript</p> <hr style={{width:"50%"}} /></div>
-                        <div className="about-skill"> <p>React JS</p> <hr style={{width:"50%"}} /></div>
-                        <div className="about-skill"><p>Redux</p> <hr style={{width:"30%"}} /></div>
-                        <div className="about-skill"><p>Sass</p> <hr style={{width:"40%"}} /></div>
+                        <div className="about-skill"><p>HTML & CSS</p> <hr style={{ width: "70%" }} /></div>
+                        <div className="about-skill"><p>JavaScript</p> <hr style={{ width: "50%" }} /></div>
+                        <div className="about-skill"> <p>React JS</p> <hr style={{ width: "50%" }} /></div>
+                        <div className="about-skill"><p>Sass</p> <hr style={{ width: "40%" }} /></div>
+                        <div className="about-skill"><p>Redux</p> <hr style={{ width: "30%" }} /></div>
+
                     </div>
                 </div>
             </div>
